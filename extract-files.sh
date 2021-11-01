@@ -67,6 +67,11 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        system_ext/lib64/lib-imsvideocodec.so)
+            for LIBIMS_SHIM in $(grep -L "libims_shim.so" "${2}"); do
+                "${PATCHELF}" --add-needed "libims_shim.so" "${LIBIMS_SHIM}"
+            done
+            ;;
         vendor/bin/mlipayd@1.1)
            "${PATCHELF}" --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "${2}"
             ;;

@@ -391,7 +391,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libcamera_sdm660_shim
+    libcamera_sdm660_shim \
+    libims_shim
 
 # Tetheroffload
 PRODUCT_PACKAGES += \
