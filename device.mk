@@ -355,6 +355,10 @@ PRODUCT_PACKAGES += \
     libjson \
     libjson.vendor
 
+# QNS
+PRODUCT_PACKAGES += \
+    libstdc++.vendor
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4.vendor \
