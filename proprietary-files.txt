@@ -1,4 +1,5 @@
-# jasmine package version: V11.0.28.0.QDIMIXM, unless stated otherwise
+# jasmine: jasmine-user 10 QKQ1.190910.002 V11.0.28.0.QDIMIXM release-keys
+# tulip: tulip-user 9 PKQ1.180904.001 V12.0.1.0.PEKMIXM release-keys unless stated otherwise
 
 # ADSP - from jasmine
 vendor/bin/adsprpcd|0cdd541ee0a365c5dccd0613e495611f4d0f6607
@@ -68,7 +69,7 @@ vendor/lib/soundfx/libqcbassboost.so|73339450a42b598a3c13e67b3d4a2266d986fea2
 vendor/lib/soundfx/libqcreverb.so|eb437cd5e264b1adb4546c6a5617c5da17be5839
 vendor/lib/soundfx/libqcvirt.so|ee9eaa81bb24ac0379e06b44ef257967a4d32614
 
-# Audio ACDB
+# Audio ACDB - from tulip
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
@@ -79,7 +80,7 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Audio Power Amplifier
+# Audio Power Amplifier - from tulip
 vendor/firmware/tas2557_uCDSP.bin
 
 # Bluetooth - from jasmine
@@ -249,7 +250,7 @@ vendor/lib/libmmcamera_tulip_s5k5e8_ofilm_i_eeprom.so|fe733e253311c5a0aa5e5384d5
 vendor/lib/libmmcamera_tulip_s5k5e8_qtech_ii.so|b10653caa1d2e3281dcb838c0030bddd0b63d086
 vendor/lib/libmmcamera_tulip_s5k5e8_qtech_ii_eeprom.so|9808018443290c7efc5e54c3332df48b617d7e52
 
-# Camera configs
+# Camera configs - from tulip
 vendor/etc/camera/GpuKernelRepo.pb
 vendor/etc/camera/camera_config.xml
 vendor/etc/camera/female_bg.png
@@ -277,11 +278,11 @@ vendor/etc/camera/tulip_s5k5e8_ofilm_india_i_chromatix.xml
 vendor/etc/camera/tulip_s5k5e8_qtech_global_ii_chromatix.xml
 vendor/etc/camera/tulip_s5k5e8_qtech_india_ii_chromatix.xml
 
-# Camera actuators
+# Camera actuators - from tulip
 vendor/lib/libactuator_tulip_s5k2l7_ofilm_i_ak7374.so
 vendor/lib/libactuator_tulip_s5k2l7_qtech_ii_ak7374.so
 
-# Camera chromatix
+# Camera chromatix - from tulip
 vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_common.so
 vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_cpp_liveshot.so
 vendor/lib/libchromatix_tulip_ov02a10_ofilm_global_ii_cpp_preview.so
@@ -659,7 +660,7 @@ vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_video_full.so
 vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_zsl_preview.so
 vendor/lib/libchromatix_tulip_s5k5e8_qtech_india_ii_zsl_video.so
 
-# Camera firmware
+# Camera firmware - from tulip
 vendor/firmware/cpp_firmware_v1_1_1.fw
 vendor/firmware/cpp_firmware_v1_1_6.fw
 vendor/firmware/cpp_firmware_v1_2_0.fw
@@ -672,7 +673,7 @@ vendor/firmware/cpp_firmware_v1_8_0.fw
 vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_12_0.fw
 
-# Camera OIS
+# Camera OIS - from tulip
 vendor/lib/libois_bu63165.so
 vendor/lib/libois_lc898122.so
 
@@ -779,7 +780,7 @@ vendor/lib64/libSecureUILib.so|3a059d1fe3395eaefeb7817ad3af46987b6f4794
 vendor/lib64/libssd.so|a64337d8044607b81adcf7e8c5760cf8cdcf82b4
 vendor/lib64/libStDrvInt.so|a7bd8140e2cd5aa70a7d929e01233e5b71844cd8
 
-# Fingerprint firmware
+# Fingerprint firmware - from tulip
 etc/firmware/goodixfp.b00
 etc/firmware/goodixfp.b01
 etc/firmware/goodixfp.b02
@@ -799,7 +800,7 @@ vendor/firmware/fpctzappfingerprint.b06
 vendor/firmware/fpctzappfingerprint.b07
 vendor/firmware/fpctzappfingerprint.mdt
 
-# Fingerprint sensor
+# Fingerprint sensor - from tulip
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/framework/com.fingerprints.extension.jar
@@ -818,7 +819,7 @@ lib64/libfm-hci.so:system_ext/lib64/libfm-hci.so|589e9e290acfa18a49deba33606ed15
 product/lib64/vendor.qti.hardware.fm@1.0.so:system_ext/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|506efd87250697bdae271f86ea472785a77b84ef
 
-# Gatekeeper
+# Gatekeeper - from tulip
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
@@ -913,7 +914,7 @@ vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 vendor/lib/hw/vulkan.sdm660.so|6df3aa5c6badc46bc7a0367b9a62b0ab5b406159
 vendor/lib64/hw/vulkan.sdm660.so|f0cf8bccfcfd0473a2c0322b1274dc4d752f2abb
 
-# Graphics firmware
+# Graphics firmware - from tulip
 vendor/firmware/a512_zap.b00
 vendor/firmware/a512_zap.b01
 vendor/firmware/a512_zap.b02
@@ -934,13 +935,13 @@ vendor/lib64/libkeymasterdeviceutils.so|763a02841eb133e698180e0cacf309450a4ce0e0
 vendor/lib64/libkeymasterprovision.so|f7e215595c2f7e62a6575b23a109b6b18556fc3b
 vendor/lib64/libkeymasterutils.so|679491d7b415f45469990380e4fd61e4bfbc445e
 
-# Keymaster QTI
+# Keymaster QTI - from tulip
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 
-# Keystore
+# Keystore - from tulip
 vendor/lib/hw/keystore.sdm660.so
 vendor/lib64/hw/keystore.sdm660.so
 
@@ -1166,7 +1167,7 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so|fdc13f23a021c98bd8f8ebb1169b2b5841f
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|0fb9dae5a902c89fc0467c7215772f837408cdcd
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|7b227f1a007619dcae8d541eabe99eb5581d226d
 
-# Sensors
+# Sensors - from tulip
 vendor/bin/sensors.qti
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_def_qcomdev.conf
@@ -1188,7 +1189,7 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|9cf774301dfb59173cc2a6871ff851ea6b546f39
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|5815859dc07d3181901596d06612b379e86fe6fd
 
-# Thermal
+# Thermal - from tulip
 vendor/etc/thermal-engine.conf
 vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
