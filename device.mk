@@ -346,6 +346,10 @@ PRODUCT_PACKAGES += \
     libjson \
     libjson.vendor
 
+# Remove few packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4.vendor \
