@@ -405,6 +405,8 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
+    libminijail \
+    libminijail.vendor \
     android.hardware.wifi@1.0-service \
     hostapd \
     libwifi-hal-qcom \
