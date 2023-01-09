@@ -348,6 +348,10 @@ PRODUCT_PACKAGES += \
     libjson \
     libjson.vendor
 
+# QNS
+PRODUCT_PACKAGES += \
+    libstdc++.vendor
+	
 # Remove few packages
 PRODUCT_PACKAGES += \
     RemovePackages
