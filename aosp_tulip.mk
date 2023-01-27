@@ -26,3 +26,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Inherit some common
+TARGET_SUPPORTS_QUICK_TAP := true
