@@ -24,9 +24,3 @@ cc_library_shared {
     compile_multilib: "64",
     system_ext_specific: true
 }
-
-cc_library_shared {
-    name: "libwatermark_shim",
-    srcs: ["libwatermark_shim/libwatermark_shim.c"],
-    vendor: true,
-}
