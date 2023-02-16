@@ -104,6 +104,7 @@ vendor.video.disable.ubwc=1
 vidc.enc.dcvs.extra-buff-count=2
 
 # Display
+debug.hwui.skia_atrace_enabled=false
 debug.renderengine.backend=threaded
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.enable_gl_backpressure=1
