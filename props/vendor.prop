@@ -106,6 +106,7 @@ vidc.enc.dcvs.extra-buff-count=2
 # Display
 debug.renderengine.backend=threaded
 debug.sf.use_phase_offsets_as_durations=1
+debug.sf.enable_gl_backpressure=1
 debug.sf.late.sf.duration=10500000
 debug.sf.late.app.duration=16600000
 debug.sf.early.sf.duration=16600000
